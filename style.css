@@ -1,0 +1,14 @@
+.banner{
+    background-image: url(images/donation8.jpg);
+    height: 1080px;
+    width: 1980px;
+    background-repeat: no-repeat;
+    border: 2px solid orange;
+    
+}
+body{
+    margin: 0 auto;
+}
+.banner img{
+    text-align: center;
+}
