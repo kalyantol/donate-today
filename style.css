@@ -1,14 +1,65 @@
-.banner{
-    background-image: url(images/donation8.jpg);
-    height: 1080px;
-    width: 1980px;
-    background-repeat: no-repeat;
-    border: 2px solid orange;
-    
-}
 body{
-    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
 }
-.banner img{
-    text-align: center;
-}
+     
+.banner-h1{
+        font-size: 50px;
+        text-align: center;
+        color: white;
+        background-position: center;
+    }
+    section{
+        background-image: url(images/donation5.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 800px;
+    }
+    body{
+        margin: 0px;
+    }
+    .banner-img h1{
+        color: white;
+        font-size: 100px;
+        text-align: center;
+        margin-top: 0;
+        margin-left: 300px;
+        margin-right: 300px;
+        position: relative;
+        top: 200px 
+     }
+    .banner-img p{
+        font-size: 30px;
+        position: absolute;
+        top: 450px;
+        font-weight: bold;
+        left: 300px;
+        right: 300px;
+        text-align: center;
+        color: white;
+    }
+    .banner-img a{
+        position: absolute;
+        top: 600px;
+        left: 50%;
+         text-align: center;
+        background-color: orangered;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+    }
+    #you{
+        position: relative;
+        top: 100px;
+        left: 200px;
+    }
+    #youtube:hover{
+        color: blue;
+    }
+    #name:focus{
+        color: aqua;
+        font-size: larger;
+    }
