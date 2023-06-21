@@ -8,12 +8,16 @@ body{
         color: white;
         background-position: center;
     }
-    section{
+    .banner-img{
         background-image: url(images/donation5.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        background-repeat: no-repeat;
         height: 800px;
+        box-shadow: 
+        inset 50px -200px 900px 90px rgb(0, 0, 0),
+        inset 0px 0px 0px 0px rgb(255, 255, 255);
     }
     body{
         margin: 0px;
@@ -41,8 +45,8 @@ body{
     .banner-img a{
         position: absolute;
         top: 600px;
-        left: 50%;
-         text-align: center;
+        left: 45%;
+        text-align: center;
         background-color: orangered;
         padding: 10px;
         border-radius: 10px;
@@ -50,6 +54,21 @@ body{
         text-decoration: none;
         color: white;
         padding: 20px;
+    }
+    .banner-img a:hover{
+        background-color: blueviolet;
+        color: gold;
+    }
+    .sec-sec h1{
+        text-align: center;
+        font-size: 50px;
+    }
+    .sec-sec p{
+        text-align: center;
+        border: 2px solid black;
+        margin-left: 600px;
+        margin-right: 600px;
+        margin-top: 0;
     }
     #you{
         position: relative;
@@ -62,4 +81,13 @@ body{
     #name:focus{
         color: aqua;
         font-size: larger;
+    }
+    .button-tk{
+        text-align:center;
+        
+    }
+    .button-tk button{
+        background-color: orangered;
+        border: 2px solid orange;
+        padding: 50px;
     }
